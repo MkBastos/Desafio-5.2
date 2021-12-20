@@ -13,6 +13,13 @@ export class TestesPipeComponent implements OnInit {
     limitadosEvento: 0.8465,
 
   };
+  
+  moeda = 57.90;
+  data = new Date(2021/11/17);
+  numeroDecimal = 4.75201030;
+  numeroPercentual = 0.7911;
+  minusculo = 'Miqueias Leal Bastos'
+  maiusculo = 'Trilha Front-end'
 
   constructor() { }
 
